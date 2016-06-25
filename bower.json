@@ -1,0 +1,46 @@
+{
+  "name": "node-angularJS",
+  "description": "This is my Practice Application",
+  "main": "server.js",
+  "authors": [
+    "Rushikesh Bhujbal"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Rushikesh-Bhujbal/Node-AngularJS",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "~0.2.15",
+    "angular-translate": "~2.8.1",
+    "ng-dialog": "~0.5.5",
+    "angular-formly": "~7.3.2",
+    "lodash": "3.x",
+    "angular-mocks": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "angular-bootstrap": "~0.14.3",
+    "angular-animate": "~1.4.7",
+    "angular-messages": "~1.4.7",
+    "angular-resource": "~1.4.7",
+    "angular-sanitize": "~1.4.7",
+    "angular-toastr": "~1.6.0",
+    "satellizer": "~0.13.0",
+    "components-font-awesome": "~4.4.0",
+    "Ionicons": "ionicons#~2.0.1",
+    "angular-nvd3": "~1.0.3",
+    "ngAnalytics": "nganalytics#~1.1.4",
+    "moment": "~2.10.6",
+    "AdminLTE": "admin-lte#~2.3.2",
+    "angular-loading-overlay": "~0.2.0",
+    "angular-file-upload": "~2.2.0",
+    "animate.css": "~3.4.0",
+    "angular-local-storage": "~0.2.3"
+  }
+}

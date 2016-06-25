@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/Rushikesh-Bhujbal/Node-AngularJS#readme",
   "devDependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "ejs": "^2.4.2",
     "express": "^4.14.0",
+    "path": "^0.12.7",
     "request": "^2.72.0"
   }
 }
