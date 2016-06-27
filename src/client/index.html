@@ -25,7 +25,7 @@
             </div>
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Page 1</a></li>
+                <li><a href="#/StudentRegistration">Page 1</a></li>
                 <li><a href="#">Page 2</a></li>
                 <li><a href="#">Page 3</a></li>
             </ul>
@@ -36,7 +36,7 @@
         <h3>Basic Navbar Example</h3>
         <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
     </div>
-
+  <div ui-view></div
 
 
 
@@ -53,11 +53,18 @@
     <script src="/vendor/angular-local-storage/dist/angular-local-storage.min.js"></script>
     <script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/vendor/moment/moment.js"></script>
-    <script src="/vendor/moment-timezone/builds/moment-timezone-with-data.js"></script>
+    <!--script src="/vendor/moment-timezone/builds/moment-timezone-with-data.js"--></script>
     <script src="/vendor/angular-translate/angular-translate.js"></script>
-    <script src="/vendor/angular-loading-overlay/dist/angular-loading-overlay.js"></script>
     <script src="/vendor/lodash/lodash.js"></script>
-    <script type="text/javascript" src="/app/lib/dateRangePicker/daterangepicker.js"></script>
+
+    <!--App Scripts-->
+    <script src="/app/naApp.js"></script>
+    <script src="/app/naAppConstants.js"></script>
+    <script src="/app/naAppTranslations.js"></script>
+
+    <!--Features-->
+    <script src="/app/features/StudentRegistration/studentReg.controller.js"></script>
+    <script src="/app/features/StudentRegistration/routes.js"></script>
     <script>
        angular.element(document).ready(function() {
             angular.bootstrap(document, [APP_MODULE_NAME]);
