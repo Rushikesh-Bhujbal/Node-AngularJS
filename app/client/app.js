@@ -11,6 +11,8 @@
             });
         }]).factory('settings', ['$rootScope', function($rootScope) {
     // supported languages
+
+
     var settings = {
         layout: {
             pageSidebarClosed: true, // sidebar menu state
